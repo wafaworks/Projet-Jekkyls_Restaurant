@@ -1,0 +1,118 @@
+@import 'https://fonts.googleapis.com/css?family=Nunito|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
+
+footer {
+	background-image: url("img/header-bg.png");
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+article p {
+	vertical-align: center;
+	text-align: justify;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	text-align:center;
+	list-style: none
+}
+
+
+#main {
+	height: 20vh;
+}
+
+#main img {
+	height:100%;
+    display: block;
+    margin: auto;
+
+}
+
+#separ {
+	height: 10vh;
+}
+
+#navbarL {
+	height: 20%;
+	vertical-align: center;
+	text-align: center;
+	font-size: 105%;
+}
+
+#navbarS {
+	position: relative;
+}
+
+#headmain {
+
+	background-image: url("img/logo-resto.png"), url("img/header-bg.png");
+	background-repeat: no-repeat, no-repeat;
+	background-position: center, center;
+	background-size: contain, cover;
+	font-family: 'Nunito', sans-serif;
+	color: white;
+}
+
+#imgacc {
+	height:85vh;
+	width:100%;
+	background-image: url("img/imgacc.jpg");
+	background-size:cover;
+}
+
+#lognav img {
+	width:75%;
+}
+
+/* Bouton menu small */
+
+.btn {
+    height: 60px;
+    width: 60px;
+    margin-top: 50%; 
+    /* margin-left veut pas marcher */
+
+}
+
+.btn-primary {
+    background: #961414;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: orange;
+}
+
+
+
+span.glyphicon-menu-hamburger {
+    font-size: 25px;
+    text-align: center;
+}
+.btn {
+    height: 60px;
+    width: 60px;
+    margin-top: 50%; 
+    /* margin-left veut pas marcher */
+
+}
+
+.btn-primary {
+    background: #961414;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: orange;
+}
+
+
+
+span.glyphicon-menu-hamburger {
+    font-size: 25px;
+    text-align: center;
+}
