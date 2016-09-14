@@ -69,3 +69,50 @@ li {
 #lognav img {
 	width:75%;
 }
+
+/* Bouton menu small */
+
+.btn {
+    height: 60px;
+    width: 60px;
+    margin-top: 50%; 
+    /* margin-left veut pas marcher */
+
+}
+
+.btn-primary {
+    background: #961414;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: orange;
+}
+
+
+
+span.glyphicon-menu-hamburger {
+    font-size: 25px;
+    text-align: center;
+}
+.btn {
+    height: 60px;
+    width: 60px;
+    margin-top: 50%; 
+    /* margin-left veut pas marcher */
+
+}
+
+.btn-primary {
+    background: #961414;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: orange;
+}
+
+
+
+span.glyphicon-menu-hamburger {
+    font-size: 25px;
+    text-align: center;
+}
