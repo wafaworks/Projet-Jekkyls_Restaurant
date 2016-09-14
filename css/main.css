@@ -70,6 +70,11 @@ li {
 	width:75%;
 }
 
+/* #navbarL p {
+	font-size:1.3em;
+}
+*/
+
 /* Bouton menu small */
 
 .btn {
@@ -82,32 +87,12 @@ li {
 
 .btn-primary {
     background: #961414;
+    border-color:white;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: orange;
-}
-
-
-
-span.glyphicon-menu-hamburger {
-    font-size: 25px;
-    text-align: center;
-}
-.btn {
-    height: 60px;
-    width: 60px;
-    margin-top: 50%; 
-    /* margin-left veut pas marcher */
-
-}
-
-.btn-primary {
-    background: #961414;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: orange;
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .open > .dropdown-toggle.btn-primary {
+    background: #da1d1d;
+    border-color: white;
 }
 
 
@@ -115,4 +100,13 @@ span.glyphicon-menu-hamburger {
 span.glyphicon-menu-hamburger {
     font-size: 25px;
     text-align: center;
+}
+
+.open > .dropdown-toggle.btn-primary:focus, .open > .dropdown-toggle.btn-primary:hover {
+	background-color: #e95d5d;
+	border-color:white;
+}
+
+#menfran {
+	color:#e69500;
 }
