@@ -1,7 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Nunito|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
 
 footer {
-	background-image: url("img/header-bg.png");
+	background-image: url("../img/header-bg.png");
 	font-family: 'Nunito', sans-serif;
 	color: white;
 	text-align: center;
@@ -51,7 +51,7 @@ li {
 
 #headmain {
 
-	background-image: url("img/logo-resto.png"), url("img/header-bg.png");
+	background-image: url("../img/logo-resto.png"), url("../img/header-bg.png");
 	background-repeat: no-repeat, no-repeat;
 	background-position: center, center;
 	background-size: contain, cover;
@@ -62,7 +62,7 @@ li {
 #imgacc {
 	height:85vh;
 	width:100%;
-	background-image: url("img/imgacc.jpg");
+	background-image: url("../img/imgacc.jpg");
 	background-size:cover;
 }
 
