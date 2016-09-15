@@ -76,17 +76,11 @@ a:hover {
 #lognav img {
 	width:75%;
 }
-/*
- #navbarL p {
-	font-size:1.3em;
-}
-*/
+
 .btn {
     height: 60px;
     width: 60px;
     margin-top: 50%; 
-    /* margin-left veut pas marcher */
-
 }
 
 .btn-primary {
@@ -130,12 +124,23 @@ article img {
 	height: 10%;
 }
 
-.glyphicon-menu-down {
-    font-size: 4em;
-}
-
 #imgresto img {
 	width:100%;
+}
+
+.glyphicon-menu-down {
+    font-size: 5em;
+	border:auto;
+    color:#da1d1d;
+}
+
+#imgacc button {
+	width:100%;
+	height: 15%;
+	background-color: transparent;
+	border:none;
+	bottom:5%;
+	position: absolute;
 }
 
 
