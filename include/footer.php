@@ -13,18 +13,18 @@
 		<div class="hidden-xs hidden-sm col-md-offset-0 col-md-2" id="footrest">
 			<h4>Nos restaurants</h4>
 			<ul>
-				<li><a href="restos.php#collapse1">Bordeaux</li>
-				<li><a href="restos.php#collapse2">Chartres</li>
+				<li><a href="restos.php#collapse1">Bordeaux</a></li>
+				<li><a href="restos.php#collapse2">Chartres</a></li>
 				<li><a href="restos.php#collapse3">Fontainebleau</a></li>
-				<li><a href="restos.php#collapse4">La Loupe</li>
-				<li><a href="restos.php#collapse5">Lyon</li>
-				<li><a href="restos.php#collapse6">Orléans</li>
-				<li><a href="restos.php#collapse7">Toulouse</li>
+				<li><a href="restos.php#collapse4">La Loupe</a></li>
+				<li><a href="restos.php#collapse5">Lyon</a></li>
+				<li><a href="restos.php#collapse6">Orléans</a></li>
+				<li><a href="restos.php#collapse7">Toulouse</a></li>
 
 			</ul>
 		</div>
 		<div class="hidden-xs hidden-sm col-md-2" id="lognav">
-			<img src="img/logo-resto.png"/>
+			<a href="#topanchor"><img src="img/logo-resto.png"/></a>
 		</div>
 		<div class="col-xs-6 col-md-offset-0 col-md-2" id="footmain">
 			<!-- <div class=contactsiege> -->

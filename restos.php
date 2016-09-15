@@ -17,9 +17,9 @@ include 'include/header.php';
 <!-- Bordeaux -->
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h4 class="panel-title">
+          <h3 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Bordeaux</a>
-          </h4>
+          </h3>
         </div>
         <div id="collapse1" class="panel-collapse collapse">
           <div class="panel-body">

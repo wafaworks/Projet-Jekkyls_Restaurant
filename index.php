@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Ratatouille Restaurant";
+$pageTitle = "Jekylls' Restaurant";
 include 'include/header.php';
 ?>
 <div id="imgacc">
