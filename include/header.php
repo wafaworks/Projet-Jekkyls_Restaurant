@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<?php $restoName = "Monboulecestdupoulet" ?>
+	<?php $restoName = "Jekylls'" ?>
 	<title><?php echo $pageTitle; ?> </title>
  	<!--jquery -->
  	<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
@@ -13,6 +13,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<meta http-equiv="Content-type" content="text/html" charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	 <script src="js/main.js"></script> 
 </head>
 
 <body>
@@ -33,7 +34,7 @@
     			</ul>
   			</div>
 			</div>
-				<div class="col-xs-10 col-md-12" id="main"><!--<img src="img/logo-resto.png"/> --></div>
+				<a href="index.php"><div class="col-xs-10 col-md-12" id="main"></div></a>
 		</div>
 		<div class="row" > 
 		<!-- sur petite taille, on a toujours barre a gauche, sur grand taille on a la navbar horizontale en bas. En dehors de Medium et Large la navbar horizontale est inexistante.

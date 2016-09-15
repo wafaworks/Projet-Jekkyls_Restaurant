@@ -13,13 +13,13 @@
 		<div class="hidden-xs hidden-sm col-md-offset-0 col-md-2" id="footrest">
 			<h4>Nos restaurants</h4>
 			<ul>
-				<li>Bordeaux</li>
-				<li>Chartres</li>
-				<li>Fontainebleau</li>
-				<li>La Loupe</li>
-				<li>Lyon</li>
-				<li>Orléans</li>
-				<li>Toulouse</li>
+				<li><a href="restos.php#collapse1">Bordeaux</li>
+				<li><a href="restos.php#collapse2">Chartres</li>
+				<li><a href="restos.php#collapse3">Fontainebleau</a></li>
+				<li><a href="restos.php#collapse4">La Loupe</li>
+				<li><a href="restos.php#collapse5">Lyon</li>
+				<li><a href="restos.php#collapse6">Orléans</li>
+				<li><a href="restos.php#collapse7">Toulouse</li>
 
 			</ul>
 		</div>
