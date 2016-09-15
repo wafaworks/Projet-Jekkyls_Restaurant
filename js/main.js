@@ -2,7 +2,6 @@ $(document).ready(function () {
   location.hash && $(location.hash + '.collapse').collapse('show');
 });
 
-
 $(document).on('click', 'a[href*=#]', function(event){
     event.preventDefault();
 

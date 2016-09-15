@@ -29,11 +29,11 @@
 		<div class="col-xs-6 col-md-offset-0 col-md-2" id="footmain">
 			<!-- <div class=contactsiege> -->
 				<h4> Contact</h4>
-				<p>Ratatouille La Loupe<br>
-				124 Rue du resto<br>
+				<p>Jekylls' La Loupe<br>
+				124, Rue du resto<br>
 				25000 Pataclop sur soane</p>
 				<p>01.23.45.67.89<p>
-				<p><a href="mailto:ratatouille.siege@gmail.com">Nous écrire</a>
+				<p><a id="footcolor" href="mailto:jekyll's.siege@gmail.com">Email</a>
 				</p>
 			<!-- </div> -->
 		</div>
@@ -41,7 +41,7 @@
 				<h4>Mentions légales</h4>
 				<p>Tous droits reservés&copy; <p>
 				<p>Mentions légales.</p>
-				<p>Une création <a href="http://www.waflex.com">Waflex</a>.</p>
+				<p>Une création <a id="footcolor" href="http://www.waflex.com">Waflex</a>.</p>
 		</div>
 	</div>
 </div>

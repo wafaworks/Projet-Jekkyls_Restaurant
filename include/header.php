@@ -12,8 +12,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<meta http-equiv="Content-type" content="text/html" charset="utf-8" />
+	<!--css -->
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<!-- js -->
 	<script src="js/main.js"></script> 
+	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
 	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
@@ -25,9 +28,9 @@
 
 <body>
 <header>
-<!-- La j'ai codé en considerant que, sur les petits devices (xs et sm), le menu a gauche ferait 2 sur 12 mais ça s'adapte, on peut même differencier xs et sm si besoin. Quand le menu a gauche disparait (taille medium et large, la "main zone" (là où il y aura le logo, etc) occupe toute la largeur. -->
-	<div class="container-fluid" id="headmain"> <!-- ou container-fluid, a voir -->
+	<div class="container-fluid" id="headmain">
 		<div class="row">
+		<!-- Navbar for small screen -->
 			<div class="col-xs-2 hidden-md hidden-lg" id="navbarS">
 				<div class="btn-group">
    					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
@@ -49,10 +52,7 @@
 				</a>
 		</div>
 		<div class="row" > 
-		<!-- sur petite taille, on a toujours barre a gauche, sur grand taille on a la navbar horizontale en bas. En dehors de Medium et Large la navbar horizontale est inexistante.
-			<div class="col-xs-2 hidden-md hidden-lg" id="navbarS"></div>
-			<div class="col-xs-10 hidden-md hidden-lg" id="main"> </div>
-		-->
+		<!-- Navbar for big screen -->
 			<div class="hidden-xs hidden-sm col-md-1" id="navbarL"></div>
 			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><a href="enseigne.php"><p>Enseigne</p></a></div>
 			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><a href="histoire.php"><p>Histoire</p></a></div>
