@@ -45,9 +45,11 @@
 		div.bloc-text {
 			width: 70%;
 			margin: 0 auto;
+			margin-top: 10vh;
 		}
 	</style>
 <!-- Fin CSS -->
+
     <div class=bloc-text>
 		<h2>Pourquoi devenir franchisé ?</h2>
 		<p>Avec 7 restaurants créés en 5 ans, <?php $restoName ?> est une franchise en pleine expansion. Tout en fournissant un service haut de gamme, nous avons à coeur de vous fournir des produits bio et de qualités. Ces valeurs qui plaisent et qui font notre force sont le fruit d’un processus de sélection draconien pour nos futurs franchisés. C'est pourquoi nous exigeons un minimum de savoir-faire avec ce type de produits pour toute demande de franchise.</p>
