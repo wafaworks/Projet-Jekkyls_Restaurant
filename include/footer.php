@@ -24,7 +24,7 @@
 					</ul>
 				</div>
 				<div class="hidden-xs hidden-sm col-md-2" id="lognav">
-					<h1 title="Jekylls" keywords='restaurant, gastronomie, bistronomie, ratatouille'><a href="#topanchor"><img src="img/logo-resto.png"/></a></h1>  
+					<h1><a href="#topanchor"><img src="img/logo-resto.png" title="Jekkyls' Restaurant" alt="Logo Jekkyls' Restaurant"/></a></h1>  
 					<!-- added h1 & keywords for SEO -->
 				</div>
 				<div class="col-xs-6 col-md-offset-0 col-md-2" id="footmain">
@@ -34,7 +34,7 @@
 						124, Rue du resto<br>
 						25000 Pataclop sur soane</p>
 						<p>01.23.45.67.89<p>
-						<p><a id="footcolor" href="mailto:jekyll's.siege@gmail.com">Email</a>
+						<p><a id="footcolor" href="mailto:jekyll's.siege@gmail.com" title="Envoyer Email à Jekkyls">Email</a>
 						</p>
 					<!-- </div> -->
 				</div>
@@ -42,7 +42,7 @@
 						<h4>Mentions légales</h4>
 						<p>Tous droits reservés&copy; <p>
 						<p>Mentions légales.</p>
-						<p>Une création <a id="footcolor" href="http://www.waflex.com">Waflex</a>.</p>
+						<p>Une création <a id="footcolor" href="http://www.waflex.com" title="site internet agence Waflex">Waflex</a>.</p>
 						<!-- careful, id "footcolor" already exists on top, could we change it ? can't have 2 same id -->
 				</div>
 			</div>
