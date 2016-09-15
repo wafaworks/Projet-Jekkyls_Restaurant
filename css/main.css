@@ -125,7 +125,18 @@ article img {
 	color:#ffae1a;
 }
 
+#accdown {
+	width: 10%;
+	height: 10%;
+}
 
+.glyphicon-menu-down {
+    font-size: 4em;
+}
+
+#imgresto img {
+	width:100%;
+}
 
 
 /* Pages des restaurants */

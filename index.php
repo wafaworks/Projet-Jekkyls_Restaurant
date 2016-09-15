@@ -2,7 +2,11 @@
 $pageTitle = "Ratatouille Restaurant";
 include 'include/header.php';
 ?>
-<div id="imgacc"> </div>
+<div id="imgacc">
+	<button type="button" class="btn-lg" id="accdown">
+		<span class="glyphicon glyphicon-menu-down"></span>
+	</button>
+</div>
 
 <div id="separ"> </div>
 

@@ -7,6 +7,12 @@ include 'include/header.php';
 <div id=separ> </div>
 
 <div class="container">
+
+  <div class="row" id="imgresto"><img src="img/resto1.jpg">
+  </div>
+
+  <div id=separ> </div>
+
   <div class="panel-group" id="accordion">
 <!-- Bordeaux -->
       <div class="panel panel-default">
@@ -122,9 +128,11 @@ include 'include/header.php';
                       <tr>
                         <td>Mercredi</td>
                         <td>Fermé</td>
+                      </tr>
                       <tr>
                         <td>Jeudi</td>
                         <td>Fermé</td>
+                      </tr>
                       <tr>
                         <td>Vendredi</td>
                         <td>12:00–14:00, 19:30–22:00</td>
@@ -132,9 +140,11 @@ include 'include/header.php';
                       <tr>
                         <td>Samedi</td>
                         <td>12:00–14:00, 19:30–22:00</td>
+                      </tr>
                       <tr>
                         <td>Dimanche</td>
                         <td>12:00–14:00, 19:30–22:00</td>
+                      </tr>
                     </tbody>
                   </table>
               </div>
@@ -153,7 +163,7 @@ include 'include/header.php';
             </div>
           </div>
         </div>
-    </div>
+      </div>
 
 <!-- Fontainebleau -->
 
@@ -193,9 +203,11 @@ include 'include/header.php';
                       <tr>
                         <td>Mercredi</td>
                         <td>Fermé</td>
+                      </tr>
                       <tr>
                         <td>Jeudi</td>
                         <td>12:00–14:00, 19:30–22:00</td>
+                      </tr>
                       <tr>
                         <td>Vendredi</td>
                         <td>12:00–14:00, 19:30–22:00</td>
@@ -203,9 +215,11 @@ include 'include/header.php';
                       <tr>
                         <td>Samedi</td>
                         <td>12:00–14:00, 19:30–22:00</td>
+                      </tr>
                       <tr>
                         <td>Dimanche</td>
                         <td>12:00–14:00, 19:30–22:00</td>
+                      </tr>
                     </tbody>
                   </table>
               </div>
@@ -235,67 +249,70 @@ include 'include/header.php';
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">La loupe</a>
         </h4>
       </div>
-        <div id="collapse4" class="panel-collapse collapse">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
-                <h5 class="restodesc">Le restaurant</h5>
-                  <p>Antre de Damien et Laurent, c'est à La Loupe que tout a commencé et que l'aventure <?php echo $restoName ?> continue au quotidien. Ici pas de fioriture, on est à la campagne, mais de la bonne cuisine, un savoir faire d'exception et des produits frais !
-                  </p>
-              </div>
-              <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
-                <h5 class="motchef">Le mot du chef</h5>
-                  <p>Pour moi la cuisine a toujours été quelques choses de fascinant, un besoin primaire élevé au rang d'art. Chaque jour est pour moi une occasion de mêler plaisir et poursuite de l'excellence.
-                  </p>
-              </div>
+      <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
+              <h5 class="restodesc">Le restaurant</h5>
+                <p>Antre de Damien et Laurent, c'est à La Loupe que tout a commencé et que l'aventure <?php echo $restoName ?> continue au quotidien. Ici pas de fioriture, on est à la campagne, mais de la bonne cuisine, un savoir faire d'exception et des produits frais !
+                </p>
             </div>
-            <div class="row">
-              <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5" class="horaire">
-                <h5>Horaires</h5>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td>Lundi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      </tr>
-                      <tr>
-                        <td>Mardi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      </tr>
-                      <tr>
-                        <td>Mercredi</td>
-                        <td>Fermé</td>
-                      <tr>
-                        <td>Jeudi</td>
-                        <td>Fermé</td>
-                      <tr>
-                        <td>Vendredi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      </tr>
-                      <tr>
-                        <td>Samedi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      <tr>
-                        <td>Dimanche</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                    </tbody>
-                  </table>
-              </div>
-              <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-4" class="contacces">
-                <h5>Téléphone :</h5>
-                  <p>
-                  05.14.26.36.58
-                  </p>
-                <h5>Adresse :</h5>
-                  <p>
-                  36, Boulevard de la résistance<br>
-                  28240 La Loupe<br>
-                  France<br>
-                  </p>
-              </div>
+            <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
+              <h5 class="motchef">Le mot du chef</h5>
+                <p>Pour moi la cuisine a toujours été quelques choses de fascinant, un besoin primaire élevé au rang d'art. Chaque jour est pour moi une occasion de mêler plaisir et poursuite de l'excellence.
+                </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5" class="horaire">
+              <h5>Horaires</h5>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Lundi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Mardi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Mercredi</td>
+                      <td>Fermé</td>
+                    <tr>
+                      <td>Jeudi</td>
+                      <td>Fermé</td>
+                    </tr>
+                     <tr>
+                      <td>Vendredi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Samedi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Dimanche</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-4" class="contacces">
+              <h5>Téléphone :</h5>
+                <p>
+                05.14.26.36.58
+                </p>
+              <h5>Adresse :</h5>
+                <p>
+                36, Boulevard de la résistance<br>
+                28240 La Loupe<br>
+                France<br>
+                </p>
             </div>
           </div>
         </div>
+      </div>
     </div>
 
 <!-- Lyon -->
@@ -306,68 +323,72 @@ include 'include/header.php';
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Lyon</a>
         </h4>
       </div>
-        <div id="collapse5" class="panel-collapse collapse">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
-                <h5 class="restodesc">Le restaurant</h5>
-                  <p>La ville des bouchons ne manque jamais d'être mentionné dès qu'on parle de bonne cuisine, il semblait normal pour nous dy être présent. Nous avons eu la chance de trouver en Kevin un chef à la hauteur de nos exigences et bien plus encore.
-                  </p>
-              </div>
-              <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
-                <h5 class="motchef">Le mot du chef</h5>
-                  <p>Issu d'une famille de cuisiniers lyonnais, c'est avec plaisir que j'ai repris le flambeau familiale et chaque jour est pour moi l'occasion de pratiquer cette passion que je connais depuis tout petit.
-                  </p>
-              </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
+              <h5 class="restodesc">Le restaurant</h5>
+                <p>La ville des bouchons ne manque jamais d'être mentionné dès qu'on parle de bonne cuisine, il semblait normal pour nous dy être présent. Nous avons eu la chance de trouver en Kevin un chef à la hauteur de nos exigences et bien plus encore.
+                </p>
             </div>
-            <div class="row">
-              <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5" class="horaire">
-                <h5>Horaires</h5>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td>Lundi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      </tr>
-                      <tr>
-                        <td>Mardi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      </tr>
-                      <tr>
-                        <td>Mercredi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      <tr>
-                        <td>Jeudi</td>
-                        <td>Fermé</td>
-                      <tr>
-                        <td>Vendredi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      </tr>
-                      <tr>
-                        <td>Samedi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      <tr>
-                        <td>Dimanche</td>
-                        <td>Fermé</td>
-                    </tbody>
-                  </table>
-              </div>
-              <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-4" class="contacces">
-                <h5>Téléphone :</h5>
-                  <p>
-                  04.25.63.69.48
-                  </p>
-                <h5>Adresse :</h5>
-                  <p>
-                  18, Rue delandine<br>
-                  69002 Lyon<br>
-                  France<br>
-                  </p>
-              </div>
+            <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
+              <h5 class="motchef">Le mot du chef</h5>
+               <p>Issu d'une famille de cuisiniers lyonnais, c'est avec plaisir que j'ai repris le flambeau familiale et chaque jour est pour moi l'occasion de pratiquer cette passion que je connais depuis tout petit.
+               </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5" class="horaire">
+              <h5>Horaires</h5>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Lundi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Mardi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Mercredi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    <tr>
+                    </tr>
+                      <td>Jeudi</td>
+                      <td>Fermé</td>
+                    </tr>
+                    <tr>
+                      <td>Vendredi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Samedi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Dimanche</td>
+                      <td>Fermé</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-4" class="contacces">
+              <h5>Téléphone :</h5>
+              <p>
+              04.25.63.69.48
+              </p>
+              <h5>Adresse :</h5>
+              <p>
+              18, Rue delandine<br>
+              69002 Lyon<br>
+              France<br>
+              </p>
             </div>
           </div>
         </div>
-        </div>
+      </div>
+    </div>
 
 <!-- Orléans -->
 
@@ -410,6 +431,7 @@ include 'include/header.php';
                       <tr>
                         <td>Jeudi</td>
                         <td>12:00–14:00, 19:30–22:00</td>
+                      </tr>
                       <tr>
                         <td>Vendredi</td>
                         <td>12:00–14:00, 19:30–22:00</td>
@@ -417,9 +439,11 @@ include 'include/header.php';
                       <tr>
                         <td>Samedi</td>
                         <td>12:00–14:00, 19:30–22:00</td>
+                      </tr>
                       <tr>
                         <td>Dimanche</td>
                         <td>12:00–14:00, 19:30–22:00</td>
+                      </tr>
                     </tbody>
                   </table>
               </div>
@@ -448,49 +472,52 @@ include 'include/header.php';
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Toulouse</a>
         </h4>
       </div>
-        <div id="collapse7" class="panel-collapse collapse">
-          <div class="panel-body">
-            <div class="row">
-              <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
-                <h5 class="restodesc">Le restaurant</h5>
-                  <p>La ville rose, bien que moins reputée que d'autres en terme de plaisirs culinaires, a su produire de nombreux grands cuisiniers, et parmi eux David. Ce grand gaillard a beaucoup bourlingué et a ramené des ces voyages des saveurs et mariages qui régalent les papilles.
-                  </p>
-              </div>
-              <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
-                <h5 class="motchef">Le mot du chef</h5>
-                  <p>J'ai été beaucoup marqué par mes voyages en orient et tentes d'inclure les délices que j'ai connu dans ma cuisine de tous les jours afin de faire découvrir ça chez nous.
-                  </p>
-              </div>
+      <div id="collapse7" class="panel-collapse collapse">
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
+              <h5 class="restodesc">Le restaurant</h5>
+              <p>La ville rose, bien que moins reputée que d'autres en terme de plaisirs culinaires, a su produire de nombreux grands cuisiniers, et parmi eux David. Ce grand gaillard a beaucoup bourlingué et a ramené des ces voyages des saveurs et mariages qui régalent les papilles.
+              </p>
             </div>
-            <div class="row">
-              <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5" class="horaire">
-                <h5>Horaires</h5>
-                  <table>
-                    <tbody>
-                      <tr>
-                        <td>Lundi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      </tr>
-                      <tr>
-                        <td>Mardi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      </tr>
-                      <tr>
-                        <td>Mercredi</td>
-                        <td>Fermé</td>
-                      <tr>
-                        <td>Jeudi</td>
-                        <td>Fermé</td>
-                      <tr>
-                        <td>Vendredi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      </tr>
-                      <tr>
-                        <td>Samedi</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
-                      <tr>
-                        <td>Dimanche</td>
-                        <td>12:00–14:00, 19:30–22:00</td>
+            <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
+              <h5 class="motchef">Le mot du chef</h5>
+               <p>J'ai été beaucoup marqué par mes voyages en orient et tentes d'inclure les délices que j'ai connu dans ma cuisine de tous les jours afin de faire découvrir ça chez nous.
+               </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5" class="horaire">
+              <h5>Horaires</h5>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Lundi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Mardi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Mercredi</td>
+                      <td>Fermé</td>
+                    <tr>
+                      <td>Jeudi</td>
+                      <td>Fermé</td>
+                    </tr>
+                    <tr>
+                      <td>Vendredi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Samedi</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
+                    <tr>
+                      <td>Dimanche</td>
+                      <td>12:00–14:00, 19:30–22:00</td>
+                    </tr>
                     </tbody>
                   </table>
               </div>
@@ -509,10 +536,14 @@ include 'include/header.php';
             </div>
           </div>
         </div>
-        </div>
     </div>
   </div>
+
+  <div id=separ> </div>
+  
+  <div class="row" id="imgresto"><img src="img/resto2.jpg">
   </div>
+
 </div>
 
 <div id=separ> </div>
