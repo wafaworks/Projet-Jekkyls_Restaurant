@@ -17,9 +17,9 @@ include 'include/header.php';
 <!-- Bordeaux -->
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h4 class="panel-title">
+          <h3 class="panel-title">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Bordeaux</a>
-          </h4>
+          </h3>
         </div>
         <div id="collapse1" class="panel-collapse collapse">
           <div class="panel-body">
@@ -178,7 +178,7 @@ include 'include/header.php';
             <div class="row">
               <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
                 <h5 class="restodesc">Le restaurant</h5>
-                  <p>La ville au chateau, ancien domaine de chasse des rois de France, vous permettra une escapade champêtre pour profiter de la cuisine non pas d'un mais une chef et même deux chefs. Amatrice d'une cuisine bariolée, Cecile a su marié créativité et tradition pour vous faire redécouvrir de subtiles saveurs.
+                  <p>La ville au chateau, ancien domaine de chasse des rois de France, vous permettra une escapade champêtre pour profiter de la cuisine non pas d'un mais une chef. Amatrice d'une cuisine bariolée, Cecile a su marier créativité et tradition pour vous faire redécouvrir de subtiles saveurs.
                   </p>
               </div>
               <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
