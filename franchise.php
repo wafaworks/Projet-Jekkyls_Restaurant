@@ -6,7 +6,6 @@
 	<style>
 		body {
 			text-align: center;
-			background-color: #e09d3e; /** voir pour la couleur, si celle du menu franchise plait, sinon voir image de fond stylisée  */
 			line-height: 1.8;
 			font-family: 'Raleway', sans-serif;
 		}
@@ -14,11 +13,21 @@
 		p {
 			margin: 20px 20px 10px;
 			text-align: center;
-			
+			padding-bottom: 5%;
+		}
+
+		h2 {
+			color: #af191a;
+		}
+
+		#resto {
+			text
 		}
 
 		img {
-		/** voir pour la size de l'image : qu'elle soit responsive et en même temps qu'elle ne se déforme pas */		
+			height: 50%;
+			width: 50%;	
+			margin-bottom: 5%;	
 		}
 
 		input#submit.btn.btn-primary {
@@ -52,9 +61,15 @@
 
     <div class=bloc-text>
 		<h2>Pourquoi devenir franchisé ?</h2>
-		<p>Avec 7 restaurants créés en 5 ans, <?php $restoName ?> est une franchise en pleine expansion. Tout en fournissant un service haut de gamme, nous avons à coeur de vous fournir des produits bio et de qualités. Ces valeurs qui plaisent et qui font notre force sont le fruit d’un processus de sélection draconien pour nos futurs franchisés. C'est pourquoi nous exigeons un minimum de savoir-faire avec ce type de produits pour toute demande de franchise.</p>
+		<p>Avec 7 restaurants créés en seulement 5 ans, Jekyll est une franchise en pleine expansion. Tout en fournissant un service haut de gamme, nous avons à coeur de vous fournir des produits bio et de qualités. Ces valeurs qui plaisent et qui font notre force sont le fruit d’un processus de sélection draconien pour nos futurs franchisés. C'est pourquoi nous exigeons un minimum de savoir-faire avec ce type de produits pour toute demande de franchise.</p>
+
+		<p>Et parce que nous mettons un point d’honneur sur le respect de notre concept et de notre technicité, nous nous efforçons au mieux d’accompagner nos nouveaux franchisés sur toute leur période de lancement, mais également de les préparer en amont. Échanges avec nos plus fervents cuisiniers et chefs cuisiniers, ateliers autour de nos recettes phares : lors d’un séminaire d’une semaine nous partagerons avec vous toute la passion qui nous anime mais aussi toutes nos connaissances, vous donnant toutes les clés qui feront de votre futur restaurant une perle rare.</p>
+
+		<p>Enfin, l’un des points essentiels qui fait notre force et notre renommée est l’ouverture d’esprit. Loin des stéréotypes de la haute gastronomie, nous encourageons fortement l’innovation et la prise de risque. Alors même si notre spécialité principale restera toujours la ratatouille, n’hésitez surtout pas à nous faire part de toute votre créativité en nous proposant de nouvelles recettes, inspirées des saveurs de votre région d’implantation notamment. Tout ce qui pourra ajouter de l'authenticité et de la valeur unique à notre enseigne sera considéré avec grande attention.</p>
+
+		<p>Car faire partie de l’aventure Jekkyls' ne revient pas à simplement monter un business parmi tant d’autres. Ce sera vraiment l’occasion pour vous de rejoindre une famille de vrais passionnés qui sait allier enthousiasme et rigueur, avec aussi beaucoup de challenge, qu’il soit personnel ou collectif.</p>
 	</div>
-	<div>
+	<div class="franchise-image">
 		<img src="img/chef-picture.jpg"/>
 	</div>
 
@@ -119,15 +134,16 @@
 			$errHuman = "Le code n'est pas valide, essayez encore";
 		}
 // If there are no errors, send the email
-if (!$errName && !$errEmail && !$errMessage && !$errHuman && !$errTelephone && !$errLocal && !$errCuisinier && !$errImplantation && !$errApport) {
-	if (mail ($to, $subject, $body, $from)) {
-		$result='<div class="alert alert-success">Merci de votre intérêt, nous vous tiendrons informé dès que possible.</div>';
-	} else {
-		$result='<div class="alert alert-danger">Excusez nous mais une erreur est survenue sur votre formulaire, essayez à nouveau</div>';
+		if (!$errName && !$errEmail && !$errMessage && !$errHuman && !$errTelephone && !$errLocal && !$errCuisinier && !$errImplantation && !$errApport) {
+			if (mail ($to, $subject, $body, $from)) {
+				$result='<div class="alert alert-success">Merci de votre intérêt, nous vous tiendrons informé dès que possible.</div>';
+			} else {
+				$result='<div class="alert alert-danger">Excusez nous mais une erreur est survenue sur votre formulaire, essayez à nouveau</div>';
+			}
+		} 
+		echo $result;
 	}
-}
-	}
-?>
+?> 
 
  <!-- Voir si ce lien est déjà dans la homepage ou si on doit spécifiquement l'ajouter pour cette page/le formulaire  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
   <body>

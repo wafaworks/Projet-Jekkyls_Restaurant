@@ -24,7 +24,7 @@
 			</ul>
 		</div>
 		<div class="hidden-xs hidden-sm col-md-2" id="lognav">
-			<img src="img/logo-resto.png"/>
+			<h1 title="Jekylls" keywords='restaurant, gastronomie, ratatouille'><a><img src="img/logo-resto.png"/></a></h1> <!-- ajout h1 et keywords pour référencement -->
 		</div>
 		<div class="col-xs-6 col-md-offset-0 col-md-2" id="footmain">
 			<!-- <div class=contactsiege> -->
