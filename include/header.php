@@ -3,6 +3,7 @@
 <html>
 
 <head>
+	<?php $restoName = "Monboulecestdupoulet" ?>
 	<title><?php echo $pageTitle; ?> </title>
  	<!--jquery -->
  	<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
@@ -24,26 +25,13 @@
    				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
   				 <span class="glyphicon glyphicon-menu-hamburger"></span></button>
    				<ul class="dropdown-menu" role="menu">
-     				<li><a href="#">Notre enseigne</a></li>
-      				<li><a href="#">Notre histoire</a></li>
-      				<li><a href="#">Nos Restaurants</a></li>
-      				<li><a href="#">Espace franchise</a></li>
+     				<li><a href="enseigne.php">Enseigne</a></li>
+      				<li><a href="histoire.php">Histoire</a></li>
+      				<li><a href="restos.php">Restaurants</a></li>
+      				<li><a href="franchise.php">Franchise</a></li>
 
     			</ul>
   			</div>
-				<!-- <div class="dropdown">
- 				<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Menu1 <span class="caret"></span>
-  				</button>
-  					<ul class="dropdown-menu" aria-labelledby="dLabel">
-    				Menu2
-  					</ul>
-  					<ul class="dropdown-menu" aria-labelledby="dLabel">
-    				Menu3
-  					</ul>
-  					<ul class="dropdown-menu" aria-labelledby="dLabel">
-    				Menu4
-  					</ul>
-				</div> -->
 			</div>
 				<div class="col-xs-10 col-md-12" id="main"><!--<img src="img/logo-resto.png"/> --></div>
 		</div>
@@ -53,11 +41,11 @@
 			<div class="col-xs-10 hidden-md hidden-lg" id="main"> </div>
 		-->
 			<div class="hidden-xs hidden-sm col-md-1" id="navbarL"></div>
-			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><p>Enseigne</p></div>
-			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><p>Histoire</p></div>
+			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><a href="enseigne.php"><p>Enseigne</p></a></div>
+			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><a href="histoire.php"><p>Histoire</p></a></div>
 			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"></div>
-			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><p>Nos Restaurants</p></div>
-			<div class="hidden-xs hidden-sm col-md-2" id="navbarL" id="menfran"><p>Franchise</p></div>
+			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><a href="restos.php"><p>Restaurants</p></a></div>
+			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><a href="franchise.php"><p id="menfran">Franchise</p></a></div>
 			<div class="hidden-xs hidden-sm col-md-1" id="navbarL"></div>
 
 		</div>

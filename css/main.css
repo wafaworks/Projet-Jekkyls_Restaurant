@@ -22,6 +22,14 @@ li {
 	list-style: none
 }
 
+a:link, a:visited {
+	color:white;
+}
+
+a:hover {
+	color:#da1d1d;
+	text-decoration: none;
+}
 
 #main {
 	height: 20vh;
@@ -35,14 +43,14 @@ li {
 }
 
 #separ {
-	height: 10vh;
+	height: 5vh;
 }
 
 #navbarL {
 	height: 20%;
 	vertical-align: center;
 	text-align: center;
-	font-size: 105%;
+	font-size: 150%;
 }
 
 #navbarS {
@@ -50,7 +58,6 @@ li {
 }
 
 #headmain {
-
 	background-image: url("../img/logo-resto.png"), url("../img/header-bg.png");
 	background-repeat: no-repeat, no-repeat;
 	background-position: center, center;
@@ -69,14 +76,11 @@ li {
 #lognav img {
 	width:75%;
 }
-
-/* #navbarL p {
+/*
+ #navbarL p {
 	font-size:1.3em;
 }
 */
-
-/* Bouton menu small */
-
 .btn {
     height: 60px;
     width: 60px;
@@ -107,6 +111,42 @@ span.glyphicon-menu-hamburger {
 	border-color:white;
 }
 
+article img {
+	width:66%;
+	display:block;
+	margin: auto;
+}
+
 #menfran {
-	color:#e69500;
+	color:#cd8400;
+}
+
+#menfran:hover {
+	color:#ffae1a;
+}
+
+
+
+
+/* Pages des restaurants */
+
+#accordion {
+		text-align: justify;
+}
+
+#accordion h5 {
+	color:#961414;
+}
+
+.panel {
+		border-color:#149696;
+}
+
+.panel-default > .panel-heading {
+		filter:none;
+		background-image:url("../img/header-bg.png");
+}
+
+td {
+	padding-right: 5px;
 }

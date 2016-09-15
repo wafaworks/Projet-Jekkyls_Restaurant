@@ -4,10 +4,10 @@
 		<div class="hidden-xs hidden-sm col-md-offset-1 col-md-2" id="footnav">
 			<h4>Naviguation</h4>
 			<ul>
-				<li>Notre enseigne</li>
-				<li>Notre histoire</li>
-				<li>Nos restaurants</li>
-				<li>Espace franchise</li>
+				<li><a href="enseigne.php">Notre enseigne</a></li>
+				<li><a href="histoire.php">Notre histoire</a></li>
+				<li><a href="restos.php">Nos Restaurants</a></li>
+				<li><a href="franchise.php" id="menfran">Espace franchise</a></li>
 			</ul>
 		</div>
 		<div class="hidden-xs hidden-sm col-md-offset-0 col-md-2" id="footrest">
@@ -39,9 +39,9 @@
 		</div>
 		<div class="col-xs-6 col-md-offset-0 col-md-2" id="mentleg">
 				<h4>Mentions légales</h4>
-				<p>Tous droits reservés Ratatouille&copy; <p>
-				<p>Consulter les mentions légales.</p>
-				<p>Site réalisé par l'agence <a href="http://www.waflex.com">Waflex</a>.</p>
+				<p>Tous droits reservés&copy; <p>
+				<p>Mentions légales.</p>
+				<p>Une création <a href="http://www.waflex.com">Waflex</a>.</p>
 		</div>
 	</div>
 </div>
