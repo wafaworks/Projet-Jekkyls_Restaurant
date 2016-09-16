@@ -24,7 +24,7 @@
 					</ul>
 				</div>
 				<div class="hidden-xs hidden-sm col-md-2" id="lognav">
-					<h1><a href="#topanchor"><img src="img/logo-resto.png" title="Jekkyls' Restaurant" alt="Logo Jekkyls' Restaurant"/></a></h1>  
+					<h1><a href="#topanchor" class="smoothtrans"><img src="img/logo-resto.png" title="Jekkyls' Restaurant" alt="Logo Jekkyls' Restaurant"/></a></h1>  
 					<!-- added h1 & keywords for SEO -->
 				</div>
 				<div class="col-xs-6 col-md-offset-0 col-md-2" id="footmain">
@@ -32,9 +32,9 @@
 						<h4> Contact</h4>
 						<p><strong>Jekylls'</strong>La Loupe<br> <!-- added <strong> for SEO -->
 						124, Rue du resto<br>
-						25000 Pataclop sur soane</p>
+						25000 La Loupe</p>
 						<p>01.23.45.67.89<p>
-						<p><a id="footcolor" href="mailto:jekyll's.siege@gmail.com" title="Envoyer Email à Jekkyls">Email</a>
+						<p><a id="footcolor" href="mailto:jekylls.siege@gmail.com" title="Envoyer Email à Jekkyls">Email</a>
 						</p>
 					<!-- </div> -->
 				</div>

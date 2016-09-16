@@ -179,6 +179,6 @@ td {
 /* Carousel */
 
 .carousel-caption h3, .carousel-caption p {
-	color: #da1d1d;
+	color: white;
 	text-shadow: 1px 1px black, -1px 1px black, -1px -1px black, 1px -1px black;
 }
