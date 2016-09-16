@@ -29,34 +29,25 @@ include 'include/header.php';
   					<ol class="carousel-indicators">
  					   <li data-target="#carouActu" data-slide-to="0" class="active"></li>
  					   <li data-target="#carouActu" data-slide-to="1"></li>
- 					   <li data-target="#carouActu" data-slide-to="2"></li>
    					</ol>
 
  					 <!-- Wrapper for slides -->
  					<div class="carousel-inner" role="listbox">
    						<div class="item active">
-  						  <img src="img/act_gordon.png" alt="Gordon">
+  						  <img class="img-fluid" src="img/act_gordon.png" alt="Gordon">
                 <div class="carousel-caption">
-                  <h3>Attention il arrive !</h3>
+                  <h3>Il arrive !</h3>
                   <p>Gordon Ramsay vient nous livrer sa version de la Ratatouille.</p>
                 </div>
     					</div>
 
     					<div class="item">
-    						<img src="img/act_london.jpg" alt="London">
+    						<img class="img-fluid" src="img/act_london.jpg" alt="London">
                 <div class="carousel-caption">
-                  <h3>Jekylls' bientôt à Londres !</h3>
-                  <p>Très prochainement l'ouverture de notre première franchise à l'étranger !</p>
+                  <h3>Jekylls' à Londres !</h3>
+                  <p>Ouverture de notre première franchise à l'étranger !</p>
                 </div>
  						</div>
-
- 					    <div class="item">
-     						<img src="img/act_mich.jpg" alt="Michelin">
-                <div class="carousel-caption">
-                  <h3>Jekylls' reconnu pour sa qualité</h3>
-                  <p>Tous nos restaurants présents dans l'édition 2016 du guide Michelin !</p>
-                </div>
-    					</div>
 
   				</div>
 
