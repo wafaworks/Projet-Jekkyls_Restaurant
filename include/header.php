@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<?php $restoName = "Jekylls'" ?>
+	<?php $restoName = "Jekkyls' Restaurant" ?>
 	<title><?php echo $pageTitle; ?> </title>
  	<!--jquery -->
  	<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
@@ -14,6 +14,7 @@
 	<meta http-equiv="Content-type" content="text/html" charset="utf-8" />
 	<!--css -->
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/histoire.css" />
 	<!-- js -->
 	<script src="js/main.js"></script> 
 	<!-- favicon -->
