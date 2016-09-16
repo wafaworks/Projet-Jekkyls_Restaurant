@@ -1,0 +1,52 @@
+.history {
+	text-align: center;
+	display: inline-block;
+}
+
+.about-us {
+	padding: 2%;
+}
+
+.fondators {
+	padding: 4%;
+}
+
+.description #damien {
+	margin: 10%;
+}
+
+.description {
+	width: 40%;
+	display: inline;
+	margin: 25px;
+}
+
+img#imgLaurent {
+	margin-top: 20px;
+}
+.description img {
+	width: 40%;
+	height: 40%;
+}
+
+.description p {
+	text-align: center;
+	display: inline;
+	width: 40%;
+	height: 40%;
+}
+
+#about-us {
+	margin-top: 4px;
+	padding: 2px;
+}
+
+#rencontre {
+	width: 50%;
+}
+
+img#ratatouille {
+	width: 40%;
+	height: 40%;
+
+}
