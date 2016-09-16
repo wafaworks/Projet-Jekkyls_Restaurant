@@ -46,7 +46,7 @@ a:hover {
 	height: 5vh;
 }
 
-#navbarL {
+.navbarL {
 	height: 20%;
 	vertical-align: center;
 	text-align: center;
@@ -147,6 +147,10 @@ article img {
 	color: #cd8400;
 }
 
+#footcolor:hover {
+	color:#ffae1a;
+}
+
 
 /* Pages des restaurants */
 
@@ -169,4 +173,12 @@ article img {
 
 td {
 	padding-right: 5px;
+}
+
+
+/* Carousel */
+
+.carousel-caption h3, .carousel-caption p {
+	color: white;
+	text-shadow: 1px 1px black, -1px 1px black, -1px -1px black, 1px -1px black;
 }

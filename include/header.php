@@ -54,13 +54,13 @@
 		</div>
 		<div class="row" > 
 		<!-- Navbar for big screen -->
-			<div class="hidden-xs hidden-sm col-md-1" id="navbarL"></div>
-			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><a href="enseigne.php"><p>Enseigne</p></a></div>
-			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><a href="histoire.php"><p>Histoire</p></a></div>
-			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"></div>
-			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><a href="restos.php"><p>Restaurants</p></a></div>
-			<div class="hidden-xs hidden-sm col-md-2" id="navbarL"><a href="franchise.php"><p id="menfran">Franchise</p></a></div>
-			<div class="hidden-xs hidden-sm col-md-1" id="navbarL"></div>
+			<div class="hidden-xs hidden-sm col-md-1" class="navbarL"></div>
+			<div class="hidden-xs hidden-sm col-md-2" class="navbarL"><a href="enseigne.php"><p>Enseigne</p></a></div>
+			<div class="hidden-xs hidden-sm col-md-2" class="navbarL"><a href="histoire.php"><p>Histoire</p></a></div>
+			<div class="hidden-xs hidden-sm col-md-2" class="navbarL"></div>
+			<div class="hidden-xs hidden-sm col-md-2" class="navbarL"><a href="restos.php"><p>Restaurants</p></a></div>
+			<div class="hidden-xs hidden-sm col-md-2" class="navbarL"><a href="franchise.php"><p id="menfran">Franchise</p></a></div>
+			<div class="hidden-xs hidden-sm col-md-1" class="navbarL"></div>
 
 		</div>
 	</div>
