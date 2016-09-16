@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "Restaurants";
+$pageTitle = "Restaurants: Notre développement dans toute la France";
 include 'include/header.php';
 ?>
 
@@ -8,7 +8,8 @@ include 'include/header.php';
 
 <div class="container">
 
-  <div class="row" id="imgresto"><img src="img/resto1.jpg">
+  <div class="row" id="imgresto">
+    <img src="img/resto1.jpg" alt="photo intérieur des cuisines" title="Dans nos cuisines tout va très vite pour offrir le meilleur services">
   </div>
 
   <div id=separ> </div>
@@ -27,7 +28,7 @@ include 'include/header.php';
               <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
                 <h5 class="restodesc">Le restaurant
                 </h5>
-                <p>Au pays du canelé la cuisine est reine, tant qu'elle est accompagné d'une bonne bouteille ! Encore jeune pour un chef, Florent a su gravir les échelons grâce à une cuisine décomplexée reposant sur son intuition pour les mélanges de saveurs. Si votre palais a envie d'être surpris, vous voilà au bon endroit.
+                <p>Au pays du cannelé la cuisine est reine, tant qu'elle est accompagnée d'une bonne bouteille ! Encore jeune pour un chef, Florent a su gravir les échelons grâce à une cuisine décomplexée reposant sur son intuition pour les mélanges de saveurs. Si votre palais a envie d'être surpris, vous voilà au bon endroit.
                 </p>
               </div>
               <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
@@ -81,7 +82,7 @@ include 'include/header.php';
                 <h5>Adresse :
                 </h5>
                 <p>
-                Place du parlement<br>
+                Place du Parlement<br>
                 33000 Bordeaux<br>
                 France<br>
                 </p>
@@ -103,7 +104,7 @@ include 'include/header.php';
             <div class="row">
               <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
                 <h5 class="restodesc">Le restaurant</h5>
-                  <p>Dans la capitale de la lumière et du parfum, venez retrouver notre chef Gianni et son "italian touch". Cuisinier depuis plus de 20 ans, il a su intégrer les plats typiques de <?php echo $restoName ?> et y rajouter le soleil de sa cuisine italienne, une explosion de saveur et de soleil pour les papilles.
+                  <p>Dans la capitale de la lumière et du parfum, venez retrouver notre chef Gianni et son "italian touch". Cuisinier depuis plus de 20 ans, il a su intégrer les plats typiques de Jekkyls' Restaurant et y rajouter le soleil de sa cuisine italienne, une explosion de saveur et de soleil pour les papilles.
                   </p>
               </div>
               <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
@@ -328,7 +329,7 @@ include 'include/header.php';
           <div class="row">
             <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
               <h5 class="restodesc">Le restaurant</h5>
-                <p>La ville des bouchons ne manque jamais d'être mentionné dès qu'on parle de bonne cuisine, il semblait normal pour nous dy être présent. Nous avons eu la chance de trouver en Kevin un chef à la hauteur de nos exigences et bien plus encore.
+                <p>La ville des bouchons ne manquant jamais d'être mentionnée dès qu'on parle de bonne cuisine, il semblait normal pour nous dy être présent. Nous avons eu la chance de trouver en Kevin un chef à la hauteur de nos exigences et bien plus encore.
                 </p>
             </div>
             <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
@@ -403,7 +404,7 @@ include 'include/header.php';
             <div class="row">
               <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-5">
                 <h5 class="restodesc">Le restaurant</h5>
-                  <p>Le long de la Loire, hstoire et cuisine se mêlent depuis des sicèles au fil de l'eau. A proximité de la cathédrale, Nicolas vous accueille dans un restaurant intimiste et convivial mais dont la décoration vous donnera pour quelques heures l'impression d'être revenu au temps de la royauté.
+                  <p>Le long de la Loire, histoire et cuisine se mêlent depuis des scièles au fil de l'eau. A proximité de la cathédrale, Nicolas vous accueille dans un restaurant intimiste et convivial mais dont la décoration vous donnera pour quelques heures l'impression d'être revenu au temps de la royauté.
                   </p>
               </div>
               <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
@@ -482,7 +483,7 @@ include 'include/header.php';
             </div>
             <div class="col-xs-offset-1 col-xs-10 col-sm-4 col-sm-offset-1">
               <h5 class="motchef">Le mot du chef</h5>
-               <p>J'ai été beaucoup marqué par mes voyages en orient et tentes d'inclure les délices que j'ai connu dans ma cuisine de tous les jours afin de faire découvrir ça chez nous.
+               <p>J'ai été beaucoup marqué par mes voyages en orient. Je tend alors à inclure les délices que j'ai connu dans ma cuisine de tous les jours afin de faire découvrir ça chez nous.
                </p>
             </div>
           </div>
@@ -541,7 +542,8 @@ include 'include/header.php';
 
   <div id=separ> </div>
   
-  <div class="row" id="imgresto"><img src="img/resto2.jpg">
+  <div class="row" id="imgresto">
+    <img src="img/resto2.jpg" alt="photo restaurant : ambiance chic" title="Tout nos restaurant offrent une décoration unique">
   </div>
 
 </div>

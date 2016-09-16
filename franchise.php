@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = 'Espace Franchise';
+	$pageTitle = "Espace Franchise : Formulaire Jekkyls' Restaurant";
 	include 'include/header.php';
 ?>
 <!-- CSS à intégrer dans page externe / voir pour le lien stylesheet dans input php  -->
@@ -56,7 +56,7 @@
 			margin: 0 auto;
 			margin-top: 10vh;
 		}
-	</style>
+	</style> 
 <!-- Fin CSS -->
 
     <div class=bloc-text>
@@ -70,7 +70,7 @@
 		<p>Car faire partie de l’aventure Jekkyls' ne revient pas à simplement monter un business parmi tant d’autres. Ce sera vraiment l’occasion pour vous de rejoindre une famille de vrais passionnés qui sait allier enthousiasme et rigueur, avec aussi beaucoup de challenge, qu’il soit personnel ou collectif.</p>
 	</div>
 	<div class="franchise-image">
-		<img src="img/chef-picture.jpg"/>
+		<img src="img/chef-picture.jpg" alt="Illustration cuisine Jekkyls' Restaurant"/>
 	</div>
 
 	<h2>Envie de faire partie de l'aventure <?php $restoName ?> ?</h2> <!-- voir pour le nom du resto vs référencement.. je pense qu'il est préférable de le citer sur chaque page + mettre un <strong> autour pour encore plus le référencer -->

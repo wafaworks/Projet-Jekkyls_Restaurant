@@ -1,0 +1,52 @@
+body {
+		text-align: center;
+		line-height: 1.8;
+		font-family: 'Raleway', sans-serif;
+}
+
+p {
+	margin: 20px 20px 10px;
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+h2 {
+	color: #af191a;
+}
+
+#resto {
+	text
+}
+
+img {
+	height: 50%;
+	width: 50%;	
+	margin-bottom: 5%;	
+}
+
+input#submit.btn.btn-primary {
+	margin-top: 0px;
+	height: 40px;
+	width: 90px;
+}
+
+div.col-sm-offset-2 {
+	margin-left: auto;
+}
+
+label.col-sm-2.control-label {
+	float: none;
+	width: auto;
+}
+
+div.col-sm-10 {
+	width: 100%;
+	float: none;
+	clear: both;
+}
+
+div.bloc-text {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 10vh;
+}

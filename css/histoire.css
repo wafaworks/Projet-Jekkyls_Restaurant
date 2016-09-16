@@ -3,6 +3,14 @@
 	display: inline-block;
 }
 
+.history h1 {
+	font-size: 26px;
+}
+.history h2 {
+	font-size: 18px;
+	margin-top: 1px;
+}
+
 .about-us {
 	padding: 2%;
 }
@@ -16,17 +24,16 @@
 }
 
 .description {
-	width: 40%;
 	display: inline;
-	margin: 25px;
+
 }
 
 img#imgLaurent {
 	margin-top: 20px;
 }
 .description img {
-	width: 40%;
-	height: 40%;
+	width: 20%;
+	height: 20%;
 }
 
 .description p {
@@ -49,4 +56,10 @@ img#ratatouille {
 	width: 40%;
 	height: 40%;
 
+}
+
+.recette p{
+	text-align: center;
+	width: 50%;
+	margin-left: 25%;
 }
