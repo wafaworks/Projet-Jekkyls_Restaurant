@@ -4,14 +4,19 @@ body {
 		font-family: 'Raleway', sans-serif;
 }
 
-p {
+.paragraph {
 	margin: 20px 20px 10px;
-	text-align: center;
+	text-align: justify;
 	padding-bottom: 5%;
+}
+
+#phrase {
+	text-align: center;
 }
 
 h2 {
 	color: #af191a;
+	margin-bottom: 8%;
 }
 
 #resto {

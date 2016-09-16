@@ -2,7 +2,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="hidden-xs hidden-sm col-md-offset-1 col-md-2" id="footnav">
-					<h4>Naviguation</h4>
+					<h4>Navigation</h4>
 					<ul>
 						<li><a href="enseigne.php">Notre enseigne</a></li>
 						<li><a href="histoire.php">Notre histoire</a></li>

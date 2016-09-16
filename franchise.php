@@ -1,80 +1,87 @@
-<?php
-	$pageTitle = "Espace Franchise : Formulaire Jekkyls' Restaurant";
-	include 'include/header.php';
-?>
-<!-- CSS à intégrer dans page externe / voir pour le lien stylesheet dans input php  -->
-	<style>
-		body {
-			text-align: center;
-			line-height: 1.8;
-			font-family: 'Raleway', sans-serif;
-		}
+<!DOCTYPE html>
 
-		p {
-			margin: 20px 20px 10px;
-			text-align: center;
-			padding-bottom: 5%;
-		}
+<html>
 
-		h2 {
-			color: #af191a;
-		}
+<head>
+	<title>"Espace Franchise : Formulaire Jekkyls' Restaurant"</title>
+ 	<!--jquery -->
+ 	<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+ 	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<meta http-equiv="Content-type" content="text/html" charset="utf-8" />
+	<!--css -->
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/histoire.css" />
+	<link rel="stylesheet" type="text/css" href="css/franchise.css" />
+	<!-- js -->
+	<script src="js/main.js"></script> 
+	<!-- favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
 
-		#resto {
-			text
-		}
+</head>
 
-		img {
-			height: 50%;
-			width: 50%;	
-			margin-bottom: 5%;	
-		}
+<body>
+<header>
+	<div class="container-fluid" id="headmain">
+		<div class="row">
+		<!-- Navbar for small screen -->
+			<div class="col-xs-2 hidden-md hidden-lg" id="navbarS">
+				<div class="btn-group">
+   					<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+  				 		<span class="glyphicon glyphicon-menu-hamburger"></span>
+  				 	</button>
+   					<ul class="dropdown-menu" role="menu">
+     					<li><a href="enseigne.php">Enseigne</a></li>
+      					<li><a href="histoire.php">Histoire</a></li>
+      					<li><a href="restos.php">Restaurants</a></li>
+      					<li><a href="franchise.php">Franchise</a></li>
+	    			</ul>
+  				</div>
+			</div>
+				<a href="index.php">
+					<div class="col-xs-10 col-md-12" id="main" title="Aller à page d'accueil">
+						<div id="topanchor">
+						</div>
+					</div>
+				</a>
+		</div>
+		<div class="row" > 
+		<!-- Navbar for big screen -->
+			<div class="hidden-xs hidden-sm col-md-1" class="navbarL"></div>
+			<div class="hidden-xs hidden-sm col-md-2" class="navbarL"><a href="enseigne.php"><p>Enseigne</p></a></div>
+			<div class="hidden-xs hidden-sm col-md-2" class="navbarL"><a href="histoire.php"><p>Histoire</p></a></div>
+			<div class="hidden-xs hidden-sm col-md-2" class="navbarL"></div>
+			<div class="hidden-xs hidden-sm col-md-2" class="navbarL"><a href="restos.php"><p>Restaurants</p></a></div>
+			<div class="hidden-xs hidden-sm col-md-2" class="navbarL"><a href="franchise.php"><p id="menfran">Franchise</p></a></div>
+			<div class="hidden-xs hidden-sm col-md-1" class="navbarL"></div>
 
-		input#submit.btn.btn-primary {
-			margin-top: 0px;
-			height: 40px;
-			width: 90px;
-		}
-		
-		div.col-sm-offset-2 {
-			margin-left: auto;
-		}
-
-		label.col-sm-2.control-label {
-			float: none;
-			width: auto;
-		}
-
-		div.col-sm-10 {
-			width: 100%;
-			float: none;
-			clear: both;
-		}
-
-		div.bloc-text {
-			width: 70%;
-			margin: 0 auto;
-			margin-top: 10vh;
-		}
-	</style> 
-<!-- Fin CSS -->
+		</div>
+	</div>
+</header>
 
     <div class=bloc-text>
 		<h2>Pourquoi devenir franchisé ?</h2>
-		<p>Avec 7 restaurants créés en seulement 5 ans, Jekyll est une franchise en pleine expansion. Tout en fournissant un service haut de gamme, nous avons à coeur de vous fournir des produits bio et de qualités. Ces valeurs qui plaisent et qui font notre force sont le fruit d’un processus de sélection draconien pour nos futurs franchisés. C'est pourquoi nous exigeons un minimum de savoir-faire avec ce type de produits pour toute demande de franchise.</p>
+		<p class="paragraph">Avec 7 restaurants créés en seulement 5 ans, Jekyll est une franchise en pleine expansion. Tout en fournissant un service haut de gamme, nous avons à coeur de vous fournir des produits bio et de qualités. Ces valeurs qui plaisent et qui font notre force sont le fruit d’un processus de sélection draconien pour nos futurs franchisés. C'est pourquoi nous exigeons un minimum de savoir-faire avec ce type de produits pour toute demande de franchise.</p>
 
-		<p>Et parce que nous mettons un point d’honneur sur le respect de notre concept et de notre technicité, nous nous efforçons au mieux d’accompagner nos nouveaux franchisés sur toute leur période de lancement, mais également de les préparer en amont. Échanges avec nos plus fervents cuisiniers et chefs cuisiniers, ateliers autour de nos recettes phares : lors d’un séminaire d’une semaine nous partagerons avec vous toute la passion qui nous anime mais aussi toutes nos connaissances, vous donnant toutes les clés qui feront de votre futur restaurant une perle rare.</p>
+		<p class="paragraph">Et parce que nous mettons un point d’honneur sur le respect de notre concept et de notre technicité, nous nous efforçons au mieux d’accompagner nos nouveaux franchisés sur toute leur période de lancement, mais également de les préparer en amont. Échanges avec nos plus fervents cuisiniers et chefs cuisiniers, ateliers autour de nos recettes phares : lors d’un séminaire d’une semaine nous partagerons avec vous toute la passion qui nous anime mais aussi toutes nos connaissances, vous donnant toutes les clés qui feront de votre futur restaurant une perle rare.</p>
 
-		<p>Enfin, l’un des points essentiels qui fait notre force et notre renommée est l’ouverture d’esprit. Loin des stéréotypes de la haute gastronomie, nous encourageons fortement l’innovation et la prise de risque. Alors même si notre spécialité principale restera toujours la ratatouille, n’hésitez surtout pas à nous faire part de toute votre créativité en nous proposant de nouvelles recettes, inspirées des saveurs de votre région d’implantation notamment. Tout ce qui pourra ajouter de l'authenticité et de la valeur unique à notre enseigne sera considéré avec grande attention.</p>
+		<p class="paragraph">Enfin, l’un des points essentiels qui fait notre force et notre renommée est l’ouverture d’esprit. Loin des stéréotypes de la haute gastronomie, nous encourageons fortement l’innovation et la prise de risque. Alors même si notre spécialité principale restera toujours la ratatouille, n’hésitez surtout pas à nous faire part de toute votre créativité en nous proposant de nouvelles recettes, inspirées des saveurs de votre région d’implantation notamment. Tout ce qui pourra ajouter de l'authenticité et de la valeur unique à notre enseigne sera considéré avec grande attention.</p>
 
-		<p>Car faire partie de l’aventure Jekkyls' ne revient pas à simplement monter un business parmi tant d’autres. Ce sera vraiment l’occasion pour vous de rejoindre une famille de vrais passionnés qui sait allier enthousiasme et rigueur, avec aussi beaucoup de challenge, qu’il soit personnel ou collectif.</p>
+		<p class="paragraph">Car faire partie de l’aventure Jekkyls' ne revient pas à simplement monter un business parmi tant d’autres. Ce sera vraiment l’occasion pour vous de rejoindre une famille de vrais passionnés qui sait allier enthousiasme et rigueur, avec aussi beaucoup de challenge, qu’il soit personnel ou collectif.</p>
 	</div>
 	<div class="franchise-image">
 		<img src="img/chef-picture.jpg" alt="Illustration cuisine Jekkyls' Restaurant"/>
 	</div>
 
-	<h2>Envie de faire partie de l'aventure <?php $restoName ?> ?</h2> <!-- voir pour le nom du resto vs référencement.. je pense qu'il est préférable de le citer sur chaque page + mettre un <strong> autour pour encore plus le référencer -->
-	<p>Remplissez ce formulaire et nous tâcherons de vous répondre dans les meilleurs délais !</p>
+	<h2>Envie de faire partie de l'aventure Jekkyls ?</h2>
+	<p class="paragraph" id="phrase">Remplissez ce formulaire et nous tâcherons de vous répondre dans les meilleurs délais !</p>
 
 	<!-- Début du code formulaire -->
 <?php
@@ -146,7 +153,6 @@
 ?> 
 
  <!-- Voir si ce lien est déjà dans la homepage ou si on doit spécifiquement l'ajouter pour cette page/le formulaire  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"> -->
-  <body>
   	<div class="container">
   		<div class="row">
   			<div class="col-md-6 col-md-offset-3">

@@ -119,6 +119,12 @@ article img {
 	margin: auto;
 }
 
+#plate {
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
 #menfran {
 	color:#cd8400;
 }
@@ -157,6 +163,10 @@ article img {
 
 #footcolor:hover {
 	color:#ffae1a;
+}
+
+#text3 {
+	margin-top: 50px;
 }
 
 

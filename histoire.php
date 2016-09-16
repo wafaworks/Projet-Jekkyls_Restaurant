@@ -23,7 +23,7 @@ include 'include/header.php';
 			</div>
 		</div>
 		<div class="history" id="rencontre">
-			<p><em>La rencontre des deux co-fondateurs de Jekkyls' Restaurant s'est faite il y a bien longtemps à Londres, alors qu'ils venaient de s'installer pour travailler dans un restaurant typique londonnien. Ils ont pu apprendre de la culture anglosaxonne mais surtout de leurs méthode de cuisine et de leurs plats typique. Pour eux alors, malgré leur jeune insoucience, il ne faisait aucun doute que la cuisine française dégageait plus d'émotions et de panache. Il s'était alors promis que si plus tard tout avait bien marché pour eux, ils montraient leur propre affaire qui ammènerait les bons plats de leur enfance à un niveau supérieur. Promesse tenue avec Jekkyls' Restaurant, en référence à Jekyll et Mr Hyde - personnage fictif londonnien - petit clin d'oeil sur leur rencontre donc ! </em></p>
+			<p><em>La rencontre des deux co-fondateurs de Jekkyls' Restaurant s'est faite il y a bien longtemps à Londres, alors qu'ils venaient de s'installer pour travailler dans un restaurant typique londonnien. Ils ont pu apprendre de la culture anglosaxonne mais surtout de leurs méthode de cuisine et de leurs plats typique. Pour eux alors, malgré leur jeune insoucience, il ne faisait aucun doute que la cuisine française dégageait plus d'émotions et de panache. Ils s'étaient alors promis que si plus tard tout avait bien marché pour eux, ils monteraient leur propre affaire qui ammènerait les bons plats de leur enfance à un niveau supérieur. Promesse tenue avec Jekkyls' Restaurant, en référence à Jekyll et Mr Hyde - personnage fictif londonnien - petit clin d'oeil sur leur rencontre donc ! </em></p>
 		</div>
 	</div>
 	<div class="history" >
