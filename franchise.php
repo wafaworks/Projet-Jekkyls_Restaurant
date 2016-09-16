@@ -80,7 +80,7 @@
 		<img src="img/chef-picture.jpg" alt="Illustration cuisine Jekkyls' Restaurant"/>
 	</div>
 
-	<h2>Envie de faire partie de l'aventure Jekkyls ?</h2>
+	<h2 id="phrase2">Envie de faire partie de l'aventure Jekkyls ?</h2>
 	<p class="paragraph" id="phrase">Remplissez ce formulaire et nous tâcherons de vous répondre dans les meilleurs délais !</p>
 
 	<!-- Début du code formulaire -->

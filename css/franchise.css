@@ -12,15 +12,13 @@ body {
 
 #phrase {
 	text-align: center;
+	font-size:1.25em;
+
 }
 
 h2 {
 	color: #af191a;
 	margin-bottom: 8%;
-}
-
-#resto {
-	text
 }
 
 img {
@@ -54,4 +52,8 @@ div.bloc-text {
 	width: 70%;
 	margin: 0 auto;
 	margin-top: 10vh;
+}
+
+#phrase2 {
+	margin:0;
 }
