@@ -7,11 +7,11 @@ footer {
 	text-align: center;
 }
 
-article p {
+p {
 	vertical-align: center;
 	text-align: justify;
 }
-
+/* Gestion style list pour éviter puce et autres dans footer */
 footer ul {
 	margin: 0;
 	padding: 0;
@@ -22,6 +22,8 @@ li {
 	list-style: none
 }
 
+/* Style lien charte graphique */
+
 a:link, a:visited {
 	color:white;
 }
@@ -31,6 +33,11 @@ a:hover {
 	text-decoration: none;
 }
 
+div a p {
+	text-align: center;
+}
+
+/* Gestion taille header */
 #main {
 	height: 20vh;
 }
@@ -42,10 +49,6 @@ a:hover {
 
 }
 
-#separ {
-	height: 5vh;
-}
-
 .navbarL {
 	height: 20%;
 	vertical-align: center;
@@ -55,6 +58,10 @@ a:hover {
 
 #navbarS {
 	position: relative;
+}
+
+#separ {
+	height: 5vh;
 }
 
 #headmain {
