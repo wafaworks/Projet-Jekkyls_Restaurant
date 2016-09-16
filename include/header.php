@@ -46,7 +46,7 @@
   				</div>
 			</div>
 				<a href="index.php">
-					<div class="col-xs-10 col-md-12" id="main">
+					<div class="col-xs-10 col-md-12" id="main" title="Aller à page d'accueil">
 						<div id="topanchor">
 						</div>
 					</div>
