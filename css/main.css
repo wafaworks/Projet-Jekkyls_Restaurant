@@ -17,6 +17,10 @@ footer ul {
 	padding: 0;
 }
 
+footer p {
+	text-align:center;
+}
+
 li {
 	text-align:center;
 	list-style: none
