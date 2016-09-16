@@ -1,15 +1,18 @@
 # Projet-Ratatouille
 
-1er projet fictif sur le concept du restaurant Ratatouille
+Projet fictif sur le concept du restaurant Jekylls', spécialiste de la ratatouille.
 
-Client : Fictif.
-Délai : 10 jours.
+*Client :* Fictif.  
 
-- Entretien Client pour déterminer besoin et attente.
-- 1 RDV pour présentation maquette et avancement.
-- Présentation du site final.
+*Délai :* 10 jours.
+
+*Organisation :*
+- Entretien client pour déterminer besoin et attente.
+- Un RDV intermédiaire de présentation maquette et avancement.
+- Une présentation finale du site fini.
 
 
-Intégration du projet dans cursus :
-- Premières utilisations de php.
-- Introduction à bootstrap.
+*Intégration du projet dans cursus :*
+- Introduction et utilisation de bootstrap pour un design responsive.
+- Première utilisations de php.
+- Travail en binome.
