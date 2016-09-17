@@ -1,18 +1,19 @@
-# Projet-Ratatouille
+# Projet Jekylls'
 
-Projet fictif sur le concept du restaurant Jekylls', spécialiste de la ratatouille.
+Projet fictif sur le concept du restaurant Jekylls', spécialiste de la ratatouille.  
+1er Projet de la formation @WildCodeSchool
 
-*Client :* Fictif.  
+**Délai :** 10 jours.
 
-*Délai :* 10 jours.
-
-*Organisation :*
-- Entretien client pour déterminer besoin et attente.
-- Un RDV intermédiaire de présentation maquette et avancement.
-- Une présentation finale du site fini.
+**Déroulement :**
+- Entretien client initial pour déterminer besoin et attente.
+- RDV intermédiaire de présentation maquette et avancement.
+- Présentation client finale du site prêt pour la production.
 
 
-*Intégration du projet dans cursus :*
-- Introduction et utilisation de bootstrap pour un design responsive.
-- Première utilisations de php.
+**Intégration du projet dans le cursus :**
+- Pratique de la gestion de version via github.
 - Travail en binome.
+- HTML & CSS : Développement bonne pratique.
+- Bootstrap : Introduction et utilisation pour un design responsive.
+- PHP : Introduction et première utilisations, principalement pour de l'include.
